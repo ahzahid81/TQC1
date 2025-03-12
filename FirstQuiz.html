@@ -1,9 +1,9 @@
-<!doctype html>
+<!DOCTYPE html>
 <html lang="en">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title> তা‘লিমুল কুরআন সেন্টার</title>
+    <title>তা‘লিমুল কুরআন সেন্টার</title>
     <link rel="stylesheet" href="css/reset.css">
     <link rel="stylesheet" href="css/style.css">
     <link rel="icon" type="image/png" href="logo.png">
@@ -11,65 +11,33 @@
     <style>
         body {
             font-family: 'Oxygen', sans-serif;
-            margin: auto;
-            padding: auto;
+            margin: 0;
+            padding: 0;
             box-sizing: border-box;
+            background-color: #f4f4f4;
+            text-align: center;
         }
         header {
             background-color: #004d99;
             color: white;
-            padding: 1rem;
-            text-align: center;
-            flex-direction: column;
-            align-items: center;
-            justify-content: center;
+            padding: 1.5rem;
         }
-        header form {
-            margin-top: 0.5rem;
+        header h1 {
+            margin: 0.5rem 0;
+        }
+        .form-container {
             display: flex;
-            flex-direction: column;
+            justify-content: center;
             align-items: center;
-        }
-        header form input[type="text"],
-        header form input[type="button"] {
-            padding: 0.5rem;
-            width: 60%;
-            max-width: 300px;
-        }
-        header form input[type="button"] {
-            background-color: #008CBA;
-            color: white;
-            border: none;
-            cursor: pointer;
-        }
-        #banner img {
-            width: 100%;
-            max-width: 1200px;
             height: auto;
+            padding: 2rem 1rem;
         }
-        .table-container {
-            max-width: 100%;
-            overflow-x: auto;
-            padding: 1rem;
-        }
-        table {
-            width: 100%;
-            border-collapse: collapse;
-            margin: 1rem 0;
-        }
-        table th, table td {
-            border: 1px solid #ddd;
-            padding: 0.75rem;
-            text-align: center;
-            vertical-align: middle;
-        }
-        table th {
-            background-color: #004d99;
-            color: white;
-        }
-        table td a {
-            color: #008CBA;
-            text-decoration: none;
+        iframe {
+            width: 80%;
+            max-width: 800px;
+            height: 100vh;
+            border-radius: 8px;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
         }
         footer {
             background-color: #f1f1f1;
@@ -78,10 +46,9 @@
             margin-top: 2rem;
         }
         @media (max-width: 768px) {
-            header form input[type="text"],
-            header form input[type="button"] {
-                width: 100%;
-                height: auto;
+            iframe {
+                width: 95%;
+                height: 90vh;
             }
         }
     </style>
@@ -92,10 +59,14 @@
         <h1>শাহরুল কুরআন প্রোগ্রাম ১৪৪৬</h1>
         <h1>সহিহ্ কুরআন প্রশিক্ষণ কোর্স</h1>
     </header>
-    <p>
+
+    <h1> প্রথম কুইজ পরীক্ষা </h1>
     
-    <iframe src="https://docs.google.com/forms/d/e/1FAIpQLSffrebiUeAzv-RjgmRPbmp5yTdXKyykKqJGY92qXQzP_HkDmA/viewform?embedded=true" width="640" height="11420" frameborder="0" marginheight="0" marginwidth="0">Loading…</iframe>
-    </p>
+    <div class="form-container">
+    
+        <iframe src="https://docs.google.com/forms/d/e/1FAIpQLSffrebiUeAzv-RjgmRPbmp5yTdXKyykKqJGY92qXQzP_HkDmA/viewform?embedded=true" frameborder="0">Loading…</iframe>
+    </div>
+    
     <footer>
         <p>Copyright &copy; 2025 <strong>আইটি বিভাগ, তা‘লিমুল কুরআন সেন্টার</strong> All Rights Reserved.</p>
     </footer>
